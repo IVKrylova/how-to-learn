@@ -22,9 +22,7 @@
   display: flex;
 }
 
-/*TODO позиционировать элементы через классы flex-column
-flex-row шапка разделится на две колонки, в первой три строки
-или хэдер дисплей флекс, н1 алигн-контент сентер а остальное абсолютно*/
+/* Стили для header */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -59,7 +57,6 @@ flex-row шапка разделится на две колонки, в перв
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .header__subtitle_place_header {
@@ -101,6 +98,23 @@ flex-row шапка разделится на две колонки, в перв
   position: absolute;
   right: 0;
   top: 64px;
+}
+
+/* Стили для description */
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
