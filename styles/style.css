@@ -12,7 +12,8 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/*TODO позиционировать элементы через классы flex-column
+flex-row шапка разделится на две колонки, в первой три строки*/
 .header {
   height: 100vh;
   min-height: 600px;
