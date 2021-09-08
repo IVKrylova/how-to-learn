@@ -81,10 +81,13 @@ flex-row шапка разделится на две колонки, в перв
   z-index: 1;
 }
 
-/*TODO 5px bottom?*/
 .header__main-illustration_size_header {
   width: 765px;
   height: 608px;
+}
+
+.header__main-illustration_display_blok {
+  display: block;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
