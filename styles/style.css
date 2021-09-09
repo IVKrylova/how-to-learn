@@ -23,11 +23,6 @@
   margin: 0;
 }
 
-.logo {
-  width: 183px;
-  height: 32px;
-}
-
 .section-title {
   width: 60%;
   text-align: center;
@@ -316,3 +311,28 @@
 }
 
 /* стили для подвала */
+.footer {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.foooter__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
