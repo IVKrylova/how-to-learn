@@ -211,10 +211,23 @@
   background-repeat: no-repeat;
 }
 
+.feynman_place_page {
+  position: relative;
+}
+
+.feynman_alignment_center {
+  align-items: center;
+}
+
 .feynman__title {
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
+  text-align: center;
+}
+
+.feynman__title_place_feynman {
+  margin-top: 100px;
 }
 
 .feynman__subtitile {
@@ -222,10 +235,20 @@
   font-size: 36px;
 }
 
+.feynman__subtitile_place_feynman {
+  margin-top: 70px;
+}
+
 .feynman__link {
   display: block;
   line-height: 51px;
   font-size: 36px;
+}
+
+.feynman__link_place_feynman {
+  position: absolute;
+  top: 50%;
+  right: 48px;
 }
 
 .link_decor_text-decoration {
