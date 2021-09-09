@@ -47,6 +47,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .table__text {
@@ -259,8 +260,20 @@
   color: #2f80ed;
 }
 
+/* cтили для feynman */
+.kaufman {
+  background-color: #1f1f1f;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.section-title_theme_dark {
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
