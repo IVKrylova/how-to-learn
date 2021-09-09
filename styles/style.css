@@ -24,14 +24,25 @@
 }
 
 .section-title {
+  width: 60%;
+  text-align: center;
   line-height: 1.15;
   font-size: 60px;
 }
 
 .section-subtitle {
+  width: 60%;
+  text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .table__heading {
@@ -165,7 +176,34 @@
 }
 
 /* cтили для digits */
+.digits_place_page {
+  align-items: center;
+  margin-bottom: 100px;
+}
 
+.section-title_place_digits {
+  margin-bottom: 20px;
+}
+
+.table_size_widht {
+  width: 1100px;
+}
+
+.table__cell_size_widht {
+  width: 250px;
+}
+
+.table__cell_place_table {
+  margin-top: 60px;
+}
+
+.table__text_place_cell {
+  margin-top: 20px;
+}
+
+/*.table__text_space_margin {
+  margin-top: 20px;
+}*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
