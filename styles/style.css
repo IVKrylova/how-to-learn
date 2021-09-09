@@ -23,6 +23,11 @@
   margin: 0;
 }
 
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
 .section-title {
   width: 60%;
   text-align: center;
@@ -309,3 +314,5 @@
   top: 0;
   right: -210px;
 }
+
+/* стили для подвала */
