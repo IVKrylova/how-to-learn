@@ -13,6 +13,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* универсальные стили */
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -20,6 +21,29 @@
 
 .flex-row {
   display: flex;
+}
+
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 /* cтили для header */
@@ -87,7 +111,6 @@
   display: block;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
