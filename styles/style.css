@@ -60,8 +60,11 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  position: relative;
   background-color: #f2f2f2;
+}
+
+.header_place_page {
+  position: relative;
 }
 
 .logo_place_header {
@@ -199,9 +202,6 @@
   margin-top: 20px;
 }
 
-/*.table__text_space_margin {
-  margin-top: 20px;
-}*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
