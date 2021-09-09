@@ -133,6 +133,7 @@
 
 /* cтили для description */
 .description_place_page {
+  margin-top: 100px;
   justify-content: center;
 }
 
@@ -141,8 +142,6 @@
 }
 
 .two-columns_place_page {
-  margin-top: 100px;
-  margin-bottom: 100px;
   justify-content: space-between;
 }
 
@@ -176,6 +175,7 @@
 /* cтили для digits */
 .digits_place_page {
   align-items: center;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
