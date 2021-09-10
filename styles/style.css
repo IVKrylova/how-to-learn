@@ -319,14 +319,13 @@
 .footer {
   background-color: #1f1f1f;
   color: #fff;
-  width: 90%;
   min-height: 350px;
-  padding: 0 5%;
 }
 
 .footer__columns_plase_footer {
   justify-content: space-between;
-  margin: 60px auto 40px;
+  margin: 60px auto 40px 64px;
+  width: 90%;
 }
 
 .footer__columns_content_copyright {
