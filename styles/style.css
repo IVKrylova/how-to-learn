@@ -25,7 +25,6 @@
 
 .logo {
   width: 183px;
-  height: 32px;
 }
 
 .section-title {
@@ -335,6 +334,7 @@
 }
 
 .logo_theme_dark {
+  height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
 
