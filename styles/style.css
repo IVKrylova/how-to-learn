@@ -283,6 +283,7 @@
 .section-title_place_kaufman {
   margin-top: 90px;
   margin-bottom: 20px;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
