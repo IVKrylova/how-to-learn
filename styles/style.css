@@ -7,6 +7,8 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* универсальные стили */
@@ -71,10 +73,8 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
-}
-
-.header_place_page {
   position: relative;
+  display: flex;
 }
 
 .logo_place_header {
@@ -89,12 +89,9 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-}
-
-.header__title_place_header {
   position: relative;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 3;
 }
 
@@ -102,13 +99,11 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-}
-
-.header__subtitle_place_header {
   position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 4;
+  margin: 0;
 }
 
 .header__link {
@@ -120,9 +115,6 @@
   display: block;
   width: 765px;
   height: 608px;
-}
-
-.header__main-illustration_place_header {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -133,9 +125,6 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-}
-
-.header__square-pic_place_header {
   position: absolute;
   right: 0;
   top: 64px;
