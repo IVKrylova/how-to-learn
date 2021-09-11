@@ -12,19 +12,6 @@
 }
 
 /* универсальные стили */
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-row {
-  display: flex;
-}
-
-.space-margin {
-  margin: 0;
-}
-
 .logo {
   width: 183px;
 }
