@@ -131,16 +131,15 @@
 }
 
 /* cтили для description */
-.description_place_page {
+.description {
   margin-top: 100px;
+  display: flex;
   justify-content: center;
 }
 
 .two-columns {
   width: 80%;
-}
-
-.two-columns_place_page {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -150,21 +149,22 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
   min-height: 328.8px;
-}
-
-.two-columns__main-text_place_two-colums {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
+  margin: 0;
 }
 
 .two-columns__span-accent {
