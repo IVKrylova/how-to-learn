@@ -298,9 +298,11 @@
 }
 
 .footer__column-links {
-  margin-bottom: 20px;
+  margin: 0 0 16px 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
+  list-style-type: none;
 }
 
 .footer__column-link {
