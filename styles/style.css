@@ -261,13 +261,14 @@
   margin-top: 80px;
 }
 
+/*TODO треугольник не на месте  !!! */
 .kaufman__triangle {
-  display: block;
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+  background-image: url(../images/kaufman-triangle.svg);
 }
 
 /* стили для подвала */
@@ -277,25 +278,25 @@
   min-height: 350px;
 }
 
-.footer__columns_plase_footer {
+.footer__columns {
+  display: flex;
   justify-content: space-between;
   margin: 60px auto 40px 64px;
   width: 90%;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
   min-height: 250px;
 }
 
-.logo_theme_dark {
-  height: 35px;
-  background-image: url(../images/logo_place_footer.svg);
-}
-
 .logo_place_footer {
   align-self: flex-start;
+  height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -305,7 +306,7 @@
 }
 
 .foooter__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
