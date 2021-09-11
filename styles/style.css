@@ -231,23 +231,15 @@
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
-}
-
-.kaufman_place_page {
   position: relative;
-}
-
-.kaufman_alignment_center {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .section-title_theme_dark {
   color: #fff;
-}
-
-.section-title_place_kaufman {
   margin-top: 90px;
-  margin-bottom: 20px;
   z-index: 2;
 }
 
@@ -255,7 +247,7 @@
   color: #fff;
 }
 
-.table_place_kaufman {
+.table_theme_dark {
   position: relative;
   z-index: 2;
   margin: 0 auto 90px auto;
@@ -272,9 +264,6 @@
   display: block;
   width: 877px;
   height: 877px;
-}
-
-.kaufman__triangle_place_kaufman {
   position: absolute;
   top: 0;
   right: -210px;
