@@ -157,13 +157,13 @@
   min-width: 784px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .two-columns__span-accent {
