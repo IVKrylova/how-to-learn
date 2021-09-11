@@ -155,7 +155,6 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  min-height: 328.8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
