@@ -223,14 +223,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  margin: 0;
-}
-
-.link_decor_text-decoration {
   text-decoration: none;
-}
-
-.link_decor_color {
   color: #2f80ed;
 }
 
