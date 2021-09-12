@@ -160,7 +160,7 @@
 }
 
 .two-columns__paragraph:not(:first-of-type) {
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .two-columns__span-accent {
