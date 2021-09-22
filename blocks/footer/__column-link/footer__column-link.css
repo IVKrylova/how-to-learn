@@ -2,4 +2,10 @@
   display: block;
   color: #fff;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
 }
