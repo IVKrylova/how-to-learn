@@ -1,4 +1,4 @@
-<img src="./screenshots/how-to-learn.png" alt="Проект: Путешествие по России" width=400 /><br>
+<img src="./screenshots/how-to-learn.png" alt="Проект: Научиться учиться" width=400 /><br>
 **Проектная работа для Яндекс.Практикум (спринты 1, 2)**<br><br>
 
 ## Описание
